@@ -1,0 +1,6 @@
+<div class="main-component">
+  <!-- <div class="main-component__entry" *ngFor="let user of userList$ | async">
+    <app-item-component [user]="user"></app-item-component>
+  </div> -->
+  <app-table [tableData]="(data$ | async)!"></app-table>
+</div>

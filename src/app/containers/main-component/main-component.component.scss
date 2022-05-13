@@ -1,0 +1,10 @@
+.main-component {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.4rem;
+
+  &__entry {
+    padding: 0.2rem;
+  }
+}
